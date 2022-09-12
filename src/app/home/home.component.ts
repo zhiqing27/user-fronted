@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit {
   }
    createNewUser() {
     try{
-      var data= this.userForm.value;
+      var data= this.userForm1.value;
       var pro=true;
        if(data.email.trim()==""){
         pro=false;
